@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Work Item</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+    <table class="table_lista_wi_merge">
+        <thead>
+            <tr>
+                <th>WI</th>
+                <th> DECRIÇÃO</th>
+                <th>MARCAÇÃO</th>
+            </tr>
+        </thead>
+        <tbody id="data">
+
+        </tbody>
+    </table>
+    
+    <div class="wi-adicionadas-content">
+        <h2>ITENS ADICONADOS</h2>
+        <ul class="wi-adicionadas">
+           
+        </ul>
+    </div>
+
+    <div class="form_lista_wi_merge">
+        <form>
+            <label>Itens Merge</label>
+            <textarea name="itens_merge" id="itens_merge"></textarea>
+            <button type="button" id="btn_adicionar_wi_merge">Adicionar</button>
+            <button type="button" id="btn_checkar_itens">Checkar Itens</button>
+        </form>
+    </div>
+
+    <div class="form-wi">
+        <form>
+            <label for="wi">WI</label>
+            <input type="text" name="wi" id="wi" />
+            <button type="button" id="btn_adicionar_wi">Adicionar</button>
+        </form>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>

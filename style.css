@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.table_lista_wi_merge {
+    float: left;
+    border-collapse:collapse;
+    width: 50%;
+}
+
+.table_lista_wi_merge thead {
+    background-color: #6d38ba;
+    color: #fff;
+}
+
+.table_lista_wi_merge thead tr th {
+    padding: 10px;
+}
+
+.table_lista_wi_merge tbody {
+    background-color: #e9edf0;
+}
+
+.table_lista_wi_merge tbody tr {
+    border: 1px solid #e9edf0;
+}
+
+.table_lista_wi_merge tbody tr td {
+    border: 1px solid #e9edf0;
+    padding: 5px;
+}
+
+.wi-adicionadas-content {
+    float: right;
+    width: 30%;
+    background-color: #6d38ba;
+}
+
+.wi-adicionadas {
+    float: right;
+    width: 100%;
+    list-style: none;
+}
+
+.wi-adicionadas-content h2 {
+    background-color: #6d38ba;
+    color: #fff;
+    padding: 10px 0;
+    margin: 0 0 0 10px;
+    font-size: 16px;
+}
+
+.wi-adicionadas li {
+    background-color: #e9edf0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.form_lista_wi_merge {
+    position: absolute;
+    width: 50%;
+    left: 10px;
+    bottom: 100px;
+}
+
+.form_lista_wi_merge form label {
+    float: left;
+    width: 100%;
+}
+
+.form_lista_wi_merge form textarea {
+    width: 99%;
+    height: 70px;
+}
+
+.form_lista_wi_merge form button {
+    float: right;
+    background-color: #7a3cc6;
+    border: none;
+    color: #fff;
+    padding: 10px 120px;
+    box-sizing: border-box;
+}
+
+.form-wi {
+    position: absolute;
+    width: 30%;
+    bottom: 100px;
+    right: 0;
+}
+
+.form-wi form label {
+    float: left;
+    width: 100%;
+}
+.form-wi form input {
+    float: left;
+    width: 90%;
+    height: 30px;
+}
+
+.form-wi form button {
+    float: right;
+    clear: both;
+    background-color: #7a3cc6;
+    border: none;
+    color: #fff;
+    padding: 10px 120px;
+    box-sizing: border-box;
+    margin-right: 35px;
+    margin-top: 5px;
+}
